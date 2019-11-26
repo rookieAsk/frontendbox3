@@ -1,0 +1,30 @@
+#home{
+  height: 100%;
+  header{
+    height: 6%;
+    background: skyblue;
+  }
+  #nav{
+    width: 20%;
+    float: left;
+    height: 94%;
+    background: #2c3e50;
+    a {
+      font-weight: bold;
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      font-size: 28px;
+      margin-left: 40px;
+      color: white;
+      &.router-link-exact-active {
+        color: #42b983;
+      }
+    }
+  }
+  .content{
+    width: 80%;
+    float: left;
+    height: 94%;
+  }
+}
