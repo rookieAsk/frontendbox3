@@ -1,0 +1,18 @@
+//引入公共样式
+@import "./appBase.scss";
+
+// 页面基本大小
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Microsoft YaHei;
+  // width: 1920px;
+  // height: 1080px;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  // 登录页样式
+  @import "./login.scss";
+  // home页样式
+  @import "./home.scss";
+}

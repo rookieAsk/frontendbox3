@@ -16,7 +16,7 @@ module.exports = {
   css: {
     loaderOptions: {
       scss: {
-        prependData: `@import "~@/assets/css/styleUrl.scss";`
+        prependData: `@import "~@/assets/style/styleUrl.scss";`
       },
     }
   },
@@ -63,6 +63,9 @@ module.exports = {
       app.post('/test/post', function(req,res){
         res.json({ success: 200 , data: 'response postData' });
       })
+    },
+    fater:function(app){
+
     }
   },
   // 三方插件的选项
